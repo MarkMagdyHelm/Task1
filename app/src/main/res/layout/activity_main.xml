@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/login_button"
         android:layout_toRightOf="@id/checkbox_remember"
-        android:text="Remmember me"
+        android:text="Remember me"
         android:layout_marginTop="12dp"
         android:gravity="left"/>
     </LinearLayout>
