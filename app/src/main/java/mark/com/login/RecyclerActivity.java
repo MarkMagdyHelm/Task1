@@ -43,7 +43,7 @@ public class RecyclerActivity extends Activity {
         }
     class IconicAdapter extends RecyclerView.Adapter<RowHolder> {
 
-        private  final String[] items={"Facebook Login","Load Contacts","Search Counters","Map"};
+        private  final String[] items={"Facebook Login","Load Contacts","Search Countries","Map"};
         @Override
         public RowHolder onCreateViewHolder(ViewGroup parent, int viewType) {
             return(new RowHolder( getLayoutInflater().inflate(R.layout.cell, parent, false)));
@@ -67,7 +67,7 @@ public class RecyclerActivity extends Activity {
                            if (items[rv.getChildLayoutPosition(v)].equals("Load Contacts")) {
                                Intent in = new Intent(RecyclerActivity.this,splash.class);
                                startActivity(in);
-                           }else{ if (items[rv.getChildLayoutPosition(v)].equals("Search Counters")) {
+                           }else{ if (items[rv.getChildLayoutPosition(v)].equals("Search Countries")) {
                                Intent in = new Intent(RecyclerActivity.this, Countries_search.class);
                                startActivity(in);
                            }}
