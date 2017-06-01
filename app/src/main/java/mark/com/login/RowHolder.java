@@ -30,7 +30,7 @@ class RowHolder extends RecyclerView.ViewHolder {
             icon.setImageResource(R.drawable.contacts);}
 
         else {
-            if (item.equals("Search Counters")) {
+            if (item.equals("Search Countries")) {
                 icon.setImageResource(R.drawable.countries);
             } else {
                 if (item.equals("Map")) {
